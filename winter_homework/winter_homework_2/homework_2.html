@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WINTER HOMEWORK 2</title>
+</head>
+<body>
+
+    <div id="temporaryText" hidden ></div>
+    <div id="temporaryOperand" hidden></div>
+    <div> <span id="numberBefore" hidden></span>
+    <span id="resultBefore" hidden></span></div>
+
+    <div id="calculator" >
+       
+        <div class="output">
+            <div id="stringText" class="previous-operand"></div>
+            <div id="resultText" class="current-operand"></div>
+        </div>
+            <button id="clear" class="span_two" onclick="clearEverything()">AC</button>
+            <button id="delete" onclick="deleteBtn()">del</button>
+            <button class="operand" onclick="divNumbers()">/</button>
+            <button class="number", onclick="hello(7)" >7</button>
+            <button id="eight" value="8" onclick="hello(8)">8</button>
+            <button class="number" onclick="hello(9)">9</button>
+            <button class="operand" id="multiply" onclick="multiplyNum()">*</button>
+            <button class="number" onclick="hello(4)">4</button>
+            <button class="number" onclick="hello(5)">5</button>
+            <button class="number" onclick="hello(6)">6</button>
+            <button class="operand" onclick="minOfNumbers()">-</button>
+            <button class="number" onclick="hello(1)">1</button>
+            <button class="number" onclick="hello(2)">2</button>
+            <button class="number" onclick="hello(3)">3</button>
+            <button class="operand" onclick="sumOfNumbers()">+</button>
+            <button class="operand" onclick="dotBtn()" >.</button>
+            <button class="number" onclick="zero()">0</button>
+            <button id="equals" class="span_two" onclick="equals()">=</button>
+
+    </div>
+      
+
+
+
+    <script src="homework_2_js.js"></script>
+</body>
+</html>
